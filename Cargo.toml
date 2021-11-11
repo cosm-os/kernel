@@ -1,0 +1,11 @@
+[package]
+name = "cosmos-kernel"
+version = "0.1.0"
+edition = "2021"
+description = "🖥 Source code for the CosmOS kernel"
+
+[build-dependencies]
+cc = "1.0"
+
+[profile.release]
+lto = true
