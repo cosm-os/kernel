@@ -36,10 +36,11 @@
 //          optimise.
 //          ========================================
 
-#include "utils/common.h"
+#include "utils/command.s"
 
 #include "utils/build-pages-table.s"
 #include "utils/post-mmu-enable.s"
+#include "utils/vector.s"
 
 //          ========================================
 //          Entry point for the boot CPU. We assume
